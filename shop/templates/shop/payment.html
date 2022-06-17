@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+<div class="col-12">
+<div class="text-center">
+    <div>
+        <span class="col-md-10">상품명 : {{product.name}}</span>
+    </div>
+    <div>
+        <span class="col-md-10">가격: <strong>{{product.price}}원</strong></span>
+    </div>
+    <div>
+        <span class="col-md-10">결제가 완료되었습니다.</div>
+    </div>
+</div>
+</div>
+{% endblock %}
+</body>
+</html>
